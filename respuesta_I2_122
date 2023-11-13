@@ -1,5 +1,13 @@
 ﻿Jorge Ezequiel caballero / Gricel Diaz Zabala / Franco Yapura
 
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+
+Se puede hacer fácilmente desde Github con la opción "Sync fork"
+
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+
+Aunque no es lo más recomendable, sí se puede, con un pull request
+
 c) No se puede hacer directamente pero se pueden hacer pull request que se guarden en el original y luego pasar los cambios a los otros repositorios. 
 
 d) Los cambios se pierden, ya que al recuperar los cambios del original estos se sobreescriben.
