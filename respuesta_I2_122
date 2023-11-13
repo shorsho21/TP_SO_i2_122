@@ -3,3 +3,81 @@
 c) No se puede hacer directamente pero se pueden hacer pull request que se guarden en el original y luego pasar los cambios a los otros repositorios. 
 
 d) Los cambios se pierden, ya que al recuperar los cambios del original estos se sobreescriben.
+
+
+e)
+Franco Yapura
+
+Clonar mi repositorio y agregarle un archivo vacio
+
+   1 git init
+   2 git clone https://github.com/yapu115/TP_SO_i2_122.git
+   3 cd .\TP_SO_i2_122\
+   4 echo "" > NuevoDato.txt
+   5 ls
+   6 git add .
+   7 git commit -m "documento de nuevo dato"
+   8 git push origin main
+
+
+Agregar un archivo con los nombres de los integrantes y hacer un push 
+
+   9 echo "Jorge Ezequiel caballero / Gricel Diaz Zabala / Franco Yapura" > res...
+  10 cat .\respuesta_I2_122
+  11 git add .
+  12 git commit -m "Nombres"
+  13 git push origin main
+
+
+Asegurarse de tener configurado el repositorio original como remoto. Se puede verificar con con el siguiente comando:
+
+   git remote -v
+
+Si no está el repositorio original en la lista, se agrega con:
+
+   git remote add upstream URL_DEL_REPO_ORIGINAL
+
+
+Recuperar las ramas y cambios del repositorio original:
+
+   git fetch upstream
+
+
+Cambiar a la rama principal (main):
+
+   git checkout main
+
+
+Fusionar los cambios del repositorio original en la rama principal:
+
+   git merge upstream/main
+
+   Si estás usando otra rama, ajusta la parte main con el nombre de tu rama.
+
+Por último, actualizar repositorio forkeado en GitHub ejecutando:
+
+   git push origin main
+
+
+   Esto actualizará tu repositorio en GitHub con los cambios del repositorio original.
+
+
+jorge ezequiel caballero
+
+realizo un fork del repositorio https://github.com/yapu115/TP_SO_i2_122.git
+
+realizo un git clone del repositorio forkeado
+
+git clone https://github.com/shorsho21/TP_SO_i2_122.git
+
+modifico el archivo fork.txt y pego mis datos:
+
+realizo un pull up
+
+git add .
+
+git commit -m "mis datos"
+
+git push origin main
+
+
