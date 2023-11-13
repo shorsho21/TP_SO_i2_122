@@ -62,13 +62,44 @@ Por último, actualizar repositorio forkeado en GitHub ejecutando:
    Esto actualizará tu repositorio en GitHub con los cambios del repositorio original.
 
 
-jorge ezequiel caballero
+
+
+
+
+jorge ezequiel caballero:
 
 realizo un fork del repositorio https://github.com/yapu115/TP_SO_i2_122.git
 
 realizo un git clone del repositorio forkeado
 
 git clone https://github.com/shorsho21/TP_SO_i2_122.git
+
+modifico el archivo fork.txt y pego mis datos:
+
+realizo un pull up
+
+git add .
+
+git commit -m "mis datos"
+
+git push origin main
+
+
+
+
+
+
+
+
+
+
+Gricel Diaz Zabala:
+
+realizo un fork del repositorio https://github.com/yapu115/TP_SO_i2_122.git
+
+realizo un git clone del repositorio forkeado
+
+git clone https://github.com/GricelDiazZabala/TP_SO_i2_122.git
 
 modifico el archivo fork.txt y pego mis datos:
 
